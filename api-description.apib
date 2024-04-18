@@ -1,0 +1,27 @@
+FORMAT: 1A
+# GET /
++ Response 200 (text/html)
+[
+{
+"message": "Hello World"
+}
+]
+
+# POST /login
+
++ Request
+body:
+[
+    {"username":"sowjanya",
+     "password": "123"
+    }
+]
+
++ Response 201
+
+[
+    {
+        "authenticated": "true"
+
+    }
+]
